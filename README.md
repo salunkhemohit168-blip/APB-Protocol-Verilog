@@ -144,7 +144,3 @@ The testbench (`APB_tb.v`) includes the following test cases to verify the funct
 - Wait states in test cases 4 and 5 are simulated by delaying the slave response in the testbench, though the slave module itself does not explicitly model wait states.
 - The system assumes that `read` and `write` signals are mutually exclusive to avoid undefined behavior.
 
-## Author
-**Karankumar Nevage**  
-- **Email**: [karanpr9423@gmail.com](mailto:karanpr9423@gmail.com)  
-- **LinkedIn**: [https://www.linkedin.com/in/karankumar-nevage/](https://www.linkedin.com/in/karankumar-nevage/)
